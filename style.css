@@ -93,12 +93,35 @@ body {
   height: 15vh;
   background-color: rgba(0, 0, 0, 0.518);
   display: flex;
+  justify-content: center;
+  gap: 2%;
+  align-items: center;
 }
-.footer img {
-  width: 50px;
-  height: 50px;
+.iconKolel {
+  width: 5vw;
+  height: 7vh;
+  background-color: white;
 }
-.footer i {
-  width: 50px;
-  height: 50px;
+.iconInstagrm {
+  color: white;
+  font-size: 3vw;
+}
+.iconTiktok {
+  color: white;
+  font-size: 3vw;
+}
+.iconWhatsapp {
+  color: white;
+  font-size: 3vw;
+}
+.iconKolel:hover,
+.iconWhatsapp:hover,
+.iconTiktok:hover,
+.iconInstagrm:hover {
+  opacity: 50%;
+}
+.txtFotter {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
