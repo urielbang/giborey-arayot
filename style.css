@@ -9,6 +9,8 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: url(fotos/backgroundTree.jpg);
+  background-size: cover;
 }
 .header {
   width: 100%;
